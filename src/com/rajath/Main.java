@@ -8,8 +8,10 @@ public class Main {
         DynamicArray<Integer> dynamicArray = new DynamicArray();
         dynamicArray.add(10);
         dynamicArray.add(1);
+        dynamicArray.add(45);
         dynamicArray.add(100);
         dynamicArray.remove(10);
         System.out.println(dynamicArray.toString());
+        System.out.println(dynamicArray.size());
     }
 }
