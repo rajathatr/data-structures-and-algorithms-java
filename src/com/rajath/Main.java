@@ -10,6 +10,7 @@ public class Main {
         dynamicArray.add(1);
         dynamicArray.add(100);
         dynamicArray.remove(10);
+        dynamicArray.removeAt(1);
         System.out.println(dynamicArray.toString());
     }
 }
