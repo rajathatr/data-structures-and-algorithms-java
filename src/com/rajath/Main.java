@@ -21,5 +21,7 @@ public class Main {
         doublyLinkedList.add(30);
         doublyLinkedList.remove(20);
         System.out.println(doublyLinkedList.toString());
+
+        System.out.println("Hi from Rohith");
     }
 }
